@@ -1,0 +1,59 @@
+
+body {
+	width: 1200px;
+	height: 1000px;
+	margin:0 auto;
+	padding:50px;
+}
+#logo {
+	margin: 0 auto;
+	margin-left: 450px;
+}
+/*Aqui comienzan a alinearse las imagenes*/
+.img {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  margin: 0px;
+  padding: 50px;
+  font-family: 'Covered By Your Grace', cursive;
+}
+/*hover sobre las imagenes*/
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  overflow: hidden;
+  height: 0;
+  background: #e5cc63;
+  text-align: center;
+  font-size: 1em;
+}
+.img:hover .overlay,
+.overlay:hover {
+  height: 100%;
+  background: #e5cc63;
+}
+.img > img > img {
+  display: block;
+}
+
+.fotico {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+.footer {
+	width: 100%;
+	background-color: #e5cc63;
+	text-align: center;
+	margin-top: 200px;
+}
+.footext {
+	font-family: 'Covered By Your Grace', cursive;
+	padding: 10px;
+}
